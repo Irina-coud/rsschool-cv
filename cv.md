@@ -13,6 +13,7 @@ I consider my strengths:
 * reliability
 * strategic approach to work
 * stress resistance
+* creative thinking
 In people I value uniqueness and freedom of choice.
 ***
 ## Basic skills:
@@ -20,7 +21,7 @@ In people I value uniqueness and freedom of choice.
 * CSS / SCSS
 * JS
 * Git
-* БЭМ
+* BEM
 * VS Code
 ***
 ```
