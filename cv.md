@@ -3,8 +3,8 @@ Junior developer
 
 ---
 
-Tel: +375298131185<br/>
-Email: irinatobolich313@gmail.com<br/>
+Tel: +375298131185  
+Email: irinatobolich313@gmail.com  
 [My Github](https://github.com/Irina-coud)
 
 ---
