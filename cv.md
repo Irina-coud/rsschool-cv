@@ -57,8 +57,8 @@ testWebP(function (support) {
 ---
 
 ## Languages:
-Russian (native)
-English (A1-A2)
+Russian (native)  
+English (A1-A2)  
 Polish (A2)
 
 ---
