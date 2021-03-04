@@ -5,6 +5,7 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    color: white;
 }
 ol li,
 ul li {
@@ -47,4 +48,104 @@ input,
 button,
 textarea {
     font-family: inherit;
+}
+/* ********** */
+
+.wrapper {
+    overflow: hidden;
+    background: black;
+    margin: 0 auto;
+    max-width: 1080px;
+    min-height: 100%;
+    padding: 30px;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+.photo-box {
+}
+
+.photo {
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 20%;
+}
+.contacts {
+    align-self: center;
+}
+.contacts-name {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.contacts-profesion {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.contacts-tel {
+    margin-bottom: 15px;
+}
+.contacts-tel,
+.contacts-link,
+.contacts-email {
+    font-size: 20px;
+}
+
+.contacts-link:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.page {
+}
+.about {
+}
+.about-box {
+}
+.about-title {
+}
+.about-text {
+}
+.about-list {
+}
+.about-item {
+}
+.skills {
+}
+.skills-box {
+}
+.skills-title {
+}
+.skills-list {
+}
+.skills-item {
+}
+.education {
+}
+.education-box {
+}
+.education-title {
+}
+.education-list {
+}
+.education-item {
+}
+.languages {
+}
+.languages-box {
+}
+.languages-title {
+}
+.languages-list {
+}
+.languages-item {
+}
+.footer {
+}
+.footer-box {
+}
+.footer-list {
+}
+.footer-link {
 }
