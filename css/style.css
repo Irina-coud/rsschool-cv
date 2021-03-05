@@ -53,7 +53,7 @@ textarea {
 
 .wrapper {
     overflow: hidden;
-    background: black;
+    background: rgb(168, 155, 155);
     margin: 0 auto;
     max-width: 1080px;
     min-height: 100%;
@@ -64,88 +64,173 @@ textarea {
     display: flex;
     justify-content: space-evenly;
 }
+
 .photo-box {
+    box-shadow: 3px 3px 25px 5px white;
+    transition: box-shadow 0.3s ease 0s;
 }
 
 .photo {
-    max-width: 350px;
-    max-height: 350px;
-    border-radius: 20%;
+    max-height: 300px;
 }
+
 .contacts {
     align-self: center;
+    box-shadow: 3px 3px 25px 5px white;
+    text-align: center;
+    padding: 25px;
+    transition: box-shadow 0.3s ease 0s;
 }
+
 .contacts-name {
     font-size: 50px;
     margin-bottom: 30px;
 }
+
 .contacts-profesion {
     font-size: 25px;
     margin-bottom: 40px;
 }
-.contacts-tel {
-    margin-bottom: 15px;
-}
+
 .contacts-tel,
 .contacts-link,
 .contacts-email {
     font-size: 20px;
+    margin-bottom: 15px;
 }
 
 .contacts-link:hover {
     text-decoration: underline;
-    color: red;
+    color: rgb(129, 17, 17);
+}
+
+.contacts-list {
+    text-align: start;
+}
+
+.contacts-tel::before,
+.contacts-email::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    margin: 0 15px 0 0;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(129, 17, 17);
 }
 
 .page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px 0 20px 0;
 }
+
 .about {
+    flex: 0 1 95%;
+    box-shadow: 3px 3px 25px 5px white;
+    margin-bottom: 60px;
+    padding: 25px;
+    transition: box-shadow 0.3s ease 0s;
 }
-.about-box {
+
+.about:hover,
+.skills:hover,
+.education:hover,
+.languages:hover,
+.contacts:hover,
+.photo-box:hover {
+    box-shadow: 3px 3px 25px 5px rgb(129, 17, 17);
 }
+
 .about-title {
+    text-align: center;
 }
-.about-text {
-}
-.about-list {
-}
-.about-item {
-}
-.skills {
-}
-.skills-box {
-}
-.skills-title {
-}
-.skills-list {
-}
-.skills-item {
-}
-.education {
-}
-.education-box {
-}
-.education-title {
-}
-.education-list {
-}
-.education-item {
-}
-.languages {
-}
-.languages-box {
-}
+
+.about-title,
+.skills-title,
+.education-title,
 .languages-title {
+    font-size: 30px;
+    margin-bottom: 30px;
 }
-.languages-list {
+
+.about-text {
+    font-size: 20px;
+    margin: 0 0 20px 0;
 }
+
+.about-list li:last-child {
+    margin-bottom: 15px;
+}
+
+.about-item {
+    font-size: 20px;
+}
+
+.about-item::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    margin: 0 15px 0 0;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(129, 17, 17);
+}
+
+.skills {
+    box-shadow: 3px 3px 25px 5px white;
+    flex: 0 1 25%;
+    text-align: center;
+    padding: 25px;
+    transition: box-shadow 0.3s ease 0s;
+}
+
+.skills-item {
+    margin: 0 0 10px 0;
+    font-size: 25px;
+}
+
+.education {
+    flex: 0 1 40%;
+    text-align: center;
+    box-shadow: 3px 3px 25px 5px white;
+    padding: 25px;
+    transition: box-shadow 0.3s ease 0s;
+}
+
+.education-item {
+    margin: 0 0 10px 0;
+    font-size: 25px;
+}
+
+.languages {
+    box-shadow: 3px 3px 25px 5px white;
+    flex: 0 1 25%;
+    text-align: center;
+    padding: 25px;
+    transition: box-shadow 0.3s ease 0s;
+}
+
 .languages-item {
+    font-size: 25px;
+    margin: 0 0 15px 0;
 }
-.footer {
-}
-.footer-box {
-}
+
 .footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.footer-link {
+
+.footer-item {
+    font-size: 45px;
+    align-self: center;
+}
+
+.footer-link_Rs {
+    background: url(../img/rs_school_js.svg) no-repeat;
+    display: block;
+    width: 140px;
+    height: 45px;
 }
